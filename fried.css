@@ -1,0 +1,484 @@
+.fried{
+    color: #F5F5F1;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 43.5%;
+    bottom: -2380px;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 100px;
+    background-color: #221F1F;
+    border: none;
+    letter-spacing: 3px;
+}
+.prito{
+    position: relative;
+}
+
+.egg{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -2620px;
+    left: 95px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.friedOverlay{
+    position: absolute;
+    bottom: -2620px;
+    left: 110px;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.friedOverlayBlur{
+    backdrop-filter: blur(6px);
+}
+.friedOverlay > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.friedOverlay:hover{
+    opacity: 1;
+}
+.friedOverlay:hover > *{
+    transform: translateY(0);
+}
+.friedTitle{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hotdog{
+    width: 400px;
+    height: 300px;
+    object-fit: scale-down;
+    position: absolute;
+    bottom: -2620px;
+    left: 555px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.friedOverlay1{
+    position: absolute;
+    bottom: -2620px;
+    left: 575px;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.friedOverlayBlur1{
+    backdrop-filter: blur(6px);
+}
+.friedOverlay1 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.friedOverlay1:hover{
+    opacity: 1;
+}
+.friedOverlay1:hover > *{
+    transform: translateY(0);
+}
+.friedTitle1{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.patty{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -2620px;
+    left: 1000px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.friedOverlay2{
+    position: absolute;
+    bottom: -2620px;
+    left: 1026px;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.friedOverlayBlur2{
+    backdrop-filter: blur(6px);
+}
+.friedOverlay2 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.friedOverlay2:hover{
+    opacity: 1;
+}
+.friedOverlay2:hover > *{
+    transform: translateY(0);
+}
+.friedTitle2{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.talong{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -2956px;
+    left: 95px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.friedOverlay3{
+    position: absolute;
+    bottom: -2956px;
+    left: 110px;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.friedOverlayBlur3{
+    backdrop-filter: blur(6px);
+}
+.friedOverlay3 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.friedOverlay3:hover{
+    opacity: 1;
+}
+.friedOverlay3:hover > *{
+    transform: translateY(0);
+}
+.friedTitle3{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.siomai{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -2956px;
+    left: 555px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.friedOverlay4{
+    position: absolute;
+    bottom: -2956px;
+    left: 573px;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.friedOverlayBlur4{
+    backdrop-filter: blur(6px);
+}
+.friedOverlay4 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.friedOverlay4:hover{
+    opacity: 1;
+}
+.friedOverlay4:hover > *{
+    transform: translateY(0);
+}
+.friedTitle4{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.lumpia{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -2956px;
+    left: 1022px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.friedOverlay5{
+    position: absolute;
+    bottom: -2956px;
+    left: 1055px;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.friedOverlayBlur5{
+    backdrop-filter: blur(6px);
+}
+.friedOverlay5 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.friedOverlay5:hover{
+    opacity: 1;
+}
+.friedOverlay5:hover > *{
+    transform: translateY(0);
+}
+.friedTitle5{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.longga{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -3299px;
+    left: 95px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.friedOverlay6{
+    position: absolute;
+    bottom: -3299px;
+    left: 110px;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.friedOverlayBlur6{
+    backdrop-filter: blur(6px);
+}
+.friedOverlay6 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.friedOverlay6:hover{
+    opacity: 1;
+}
+.friedOverlay6:hover > *{
+    transform: translateY(0);
+}
+.friedTitle6{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.ham{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -3299px;
+    left: 555px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.friedOverlay7{
+    position: absolute;
+    bottom: -3299px;
+    left: 575px;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.friedOverlayBlur7{
+    backdrop-filter: blur(6px);
+}
+.friedOverlay7 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.friedOverlay7:hover{
+    opacity: 1;
+}
+.friedOverlay7:hover > *{
+    transform: translateY(0);
+}
+.friedTitle7{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.chicken{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -3299px;
+    left: 1022px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.friedOverlay8{
+    position: absolute;
+    bottom: -3299px;
+    left: 1054px;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.friedOverlayBlur8{
+    backdrop-filter: blur(6px);
+}
+.friedOverlay8 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.friedOverlay8:hover{
+    opacity: 1;
+}
+.friedOverlay8:hover > *{
+    transform: translateY(0);
+}
+.friedTitle8{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}

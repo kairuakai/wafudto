@@ -1,0 +1,326 @@
+.sauce{
+    color: #F5F5F1;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 43.5%;
+    bottom: -1580px;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 100px;
+    background-color: #221F1F;
+    border: none;
+    letter-spacing: 3px;
+}
+.sarsa{
+    position: relative;
+}
+.adobo{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -1820px;
+    left: 95px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.sauceOverlay{
+    position: absolute;
+    bottom: -1820px;
+    left: 110px;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.sauceOverlayBlur{
+    backdrop-filter: blur(6px);
+}
+.sauceOverlay > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.sauceOverlay:hover{
+    opacity: 1;
+}
+.sauceOverlay:hover > *{
+    transform: translateY(0);
+}
+.sauceTitle{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.giniling{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -1820px;
+    left: 555px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.sauceOverlay1{
+    position: absolute;
+    bottom: -1820px;
+    left: 36.4%;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.sauceOverlayBlur1{
+    backdrop-filter: blur(6px);
+}
+.sauceOverlay1 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.sauceOverlay1:hover{
+    opacity: 1;
+}
+.sauceOverlay1:hover > *{
+    transform: translateY(0);
+}
+.sauceTitle1{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.burger{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -1820px;
+    left: 1000px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.sauceOverlay2{
+    position: absolute;
+    bottom: -1820px;
+    left: 65%;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.sauceOverlayBlur2{
+    backdrop-filter: blur(6px);
+}
+.sauceOverlay2 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.sauceOverlay2:hover{
+    opacity: 1;
+}
+.sauceOverlay2:hover > *{
+    transform: translateY(0);
+}
+.sauceTitle2{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.beefsteak{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -2165px;
+    left: 95px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.sauceOverlay3{
+    position: absolute;
+    bottom: -2165px;
+    left: 109px;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.sauceOverlayBlur3{
+    backdrop-filter: blur(6px);
+}
+.sauceOverlay3 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.sauceOverlay3:hover{
+    opacity: 1;
+}
+.sauceOverlay3:hover > *{
+    transform: translateY(0);
+}
+.sauceTitle3{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.menudo{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -2165px;
+    left: 555px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.sauceOverlay4{
+    position: absolute;
+    bottom: -2165px;
+    left: 572px;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.sauceOverlayBlur4{
+    backdrop-filter: blur(6px);
+}
+.sauceOverlay4 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.sauceOverlay4:hover{
+    opacity: 1;
+}
+.sauceOverlay4:hover > *{
+    transform: translateY(0);
+}
+.sauceTitle4{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.bicol{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -2165px;
+    left: 1000px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.sauceOverlay5{
+    position: absolute;
+    bottom: -2165px;
+    left: 1016.5px;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.sauceOverlayBlur5{
+    backdrop-filter: blur(6px);
+}
+.sauceOverlay5 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.sauceOverlay5:hover{
+    opacity: 1;
+}
+.sauceOverlay5:hover > *{
+    transform: translateY(0);
+}
+.sauceTitle5{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}

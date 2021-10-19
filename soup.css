@@ -1,0 +1,169 @@
+.soup{
+    color: #F5F5F1;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 46%;
+    bottom: -1100px;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 100px;
+    background-color: #221F1F;
+    border: none;
+    letter-spacing: 3px;
+}
+
+.sabaw{
+    position: relative;
+}
+.lomi{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -1350px;
+    left: 95px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.sabawOverlay{
+    position: absolute;
+    bottom: -1350px;
+    left: 110px;
+    width: 25%;
+    height: 350px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.sabawOverlayBlur{
+    backdrop-filter: blur(6px);
+}
+.sabawOverlay > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.sabawOverlay:hover{
+    opacity: 1;
+}
+.sabawOverlay:hover > *{
+    transform: translateY(0);
+}
+.sabawTitle{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.miswa{
+    width: 400px;
+    height: 300px;
+    object-fit: scale-down;
+    position: absolute;
+    bottom: -1350px;
+    left: 555px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.sabawOverlay1{
+    position: absolute;
+    bottom: -1350px;
+    left: 36.4%;
+    width: 25%;
+    height: 350px;
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.sabawOverlayBlur1{
+    backdrop-filter: blur(6px);
+}
+.sabawOverlay1 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.sabawOverlay1:hover{
+    opacity: 1;
+}
+.sabawOverlay1:hover > *{
+    transform: translateY(0);
+}
+.sabawTitle1{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.sopas{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -1350px;
+    left: 1000px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.sabawOverlay2{
+    position: absolute;
+    bottom: -1350px;
+    left: 65%;
+    width: 25%;
+    height: 350px;
+    color: #221F1F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.sabawOverlayBlur2{
+    backdrop-filter: blur(6px);
+}
+.sabawOverlay2 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.sabawOverlay2:hover{
+    opacity: 1;
+}
+.sabawOverlay2:hover > *{
+    transform: translateY(0);
+}
+.sabawTitle2{
+    position: relative;
+    bottom: -3px;
+    left: -2px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}

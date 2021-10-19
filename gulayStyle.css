@@ -1,0 +1,94 @@
+.ginataan{
+    position: relative;
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    left: 20px;
+    bottom: -290px;
+    border-radius: 100%;
+}
+.miswa{
+    position: relative;
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    left: 400px;
+    bottom: 48px;
+    border-radius: 100%;
+}
+.adobo{
+    position: relative;
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    left: 790px;
+    bottom: 386px;
+    border-radius: 100%;
+}
+.egg{
+    position: relative;
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    left: 1170px;
+    bottom: 724px;
+    border-radius: 100%;
+}
+
+.ulamToday{
+    left: 95px;
+    letter-spacing: 3px;
+    color: white;
+
+}
+.ulamSoup{
+    letter-spacing: 3px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 490px;
+    bottom: 65%;
+    font-size: 40px;
+    font-weight: 900;
+}
+.ulamSauce{
+    letter-spacing: 3px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 795px;
+    bottom: 65%;
+    font-size: 40px;
+    font-weight: 900;
+}
+.ulamFried{
+    letter-spacing: 3px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 1195px;
+    bottom: 65%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#gulayButton{
+    position: relative;
+    left: 122px;
+    bottom: -340px;
+}
+#soupButton{
+    position: relative;
+    left: 500px;
+    bottom: -3px;
+}
+#sauceButton{
+    position: relative;
+    left: 890px;
+    bottom: 337px;
+}
+#friedButton{
+    position: relative;
+    left: 1295px;
+    bottom: 675px;
+}

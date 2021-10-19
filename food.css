@@ -1,0 +1,132 @@
+body{
+    background-color: #221F1F;
+    
+}
+.curved{
+    width: 280px;
+    height: 200px;
+    /* background: transparent url(/Logo/curved\ line.png); */
+    mix-blend-mode: multiply;
+    position: relative;
+    left: 990px;
+    bottom: 530px;
+    transform: rotate(105deg);
+    display: block; 
+    /* border-radius: 50%; */
+    
+
+}
+.nav{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    margin: 5px;
+    font-size: 40px;
+    font-weight: 900;
+    /* color: #B81024; */
+    left: 100px;
+    top: 20px;
+}
+.foodname{
+    color: #E50914;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.foodname:hover{
+    color: #B81024;
+}
+
+#logo{
+   color: #F5F5F1;
+   position: relative;
+   top: 4px;
+   right: 10px;
+    
+}
+/* .carousel-item{
+    height: 500px;
+    width: 500px;
+    
+} */
+/* .carousel-inner > .item > img {
+    width:50px;
+    height:60px;
+  } */
+  .carousel {
+    position: relative;
+    top: 150px;
+    width:50%;
+    height:560px;
+    /* left: 50px; */
+  }
+  .carousel > img{
+    object-fit: scale-down;
+  }
+.spinner-border{
+    position: relative;
+    left: 500px;
+}
+#vian{
+    width: 100%;
+    height: 450px;
+
+}
+h5{
+    /* color: #B81024; */
+    color: #F5F5F1;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    /* color: #B81024; */
+    color: #F5F5F1;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.ulamToday{
+    color: #B81024;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 63%;
+    bottom: 65%;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+.listOfUlam{
+    color: #B81024;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 43%;
+    bottom: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    
+}
+.clickTheUlam{
+    color: #F5F5F1;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 68%;
+    bottom: 60%;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 100px;
+    background-color: #B81024;
+    border: none;
+}
+.gulays{
+    color: #F5F5F1;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 46%;
+    bottom: -1px;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 100px;
+    background-color: #221F1F;
+    border: none;
+    letter-spacing: 3px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Type of Food</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="food.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="gulayStyle.css">
+</head>
+<body>
+     
+    <div class="nav">
+        <i class="fas fa-utensils" id="logo"></i>
+        <nav> <a href="index.html" class="foodname">WAFUDTO</a></nav>
+    </div>
+
+
+                    <!-- TYPES OF FOOD -->
+     <div>
+                          <!-- GULAY -->
+           <div class="ulam">
+            <p class="ulamToday"> <i class="fas fa-carrot"></i> Gulay</p> 
+            </div>
+            <div>
+                 <img id="gulay" class="ginataan" src="Logo/gulayNa3.png"> 
+            </div>
+                    <button onclick="randomFood()" type="button" class="btn btn-outline-danger" id="gulayButton">Random Now</button>
+                             <!-- SOUP -->
+        <div class="ulam">
+             <p class="ulamSoup"> <i class="fas fa-water"></i> Soup</p> 
+        </div>
+
+            <div>
+                <div>
+                    <img id="soup" class="miswa" src="Logo/soup.png"> 
+                </div>
+                    <button onclick="randomFoodSoup()" type="button" class="btn btn-outline-danger" id="soupButton">Random Now</button>
+            </div>
+                            <!-- SAUCE FOOD -->
+
+                <div class="ulam">
+                    <p class="ulamSauce"> <i class="fas fa-bacon"></i> Sauce Food</p> 
+                </div>
+
+                <div>
+                    <div>
+                        <img id="sauce" class="adobo" src="Logo/sauce.png"> 
+                    </div>
+                    <button onclick="randomFoodSauce()" type="button" class="btn btn-outline-danger" id="sauceButton">Random Now</button>
+                </div>
+
+                            <!-- FRIED/STEAM -->
+
+            <div class="ulam">
+                <p class="ulamFried"> <i class="fas fa-drumstick-bite"></i> Fried/Steam</p> 
+            </div>
+
+                <div>
+                    <div>
+                        <img id="fried" class="egg" src="Logo/fried.png"> 
+                    </div>
+                    <button onclick="randomFoodFried()" type="button" class="btn btn-outline-danger" id="friedButton">Random Now</button>
+                </div>
+
+    </div>
+    
+   
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="random.js"></script>
+    <script src="https://kit.fontawesome.com/ef88416dbc.js" crossorigin="anonymous"></script>
+</body>
+</html>
