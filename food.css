@@ -1,6 +1,6 @@
 body{
     background-color: #221F1F;
-    
+    font-family: 'Poppins', sans-serif;
 }
 .curved{
     width: 280px;
@@ -18,18 +18,18 @@ body{
 }
 .nav{
     position: absolute;
-    font-family: 'Roboto', sans-serif;
+   
     padding: 10px;
     margin: 5px;
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 700;
     /* color: #B81024; */
-    left: 100px;
+    left: 50px;
     top: 20px;
 }
 .foodname{
     color: #E50914;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     cursor: pointer;
     text-decoration: none;
 }
@@ -40,7 +40,7 @@ body{
 #logo{
    color: #F5F5F1;
    position: relative;
-   top: 4px;
+   top: 9px;
    right: 10px;
     
 }
@@ -85,37 +85,44 @@ p{
 
 
 .ulamToday{
-    color: #B81024;
+    color: white;
     font-family: 'Roboto', sans-serif;
     position: absolute;
     left: 63%;
     bottom: 65%;
-    font-size: 40px;
-    font-weight: 900;
-    
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.075em;
 }
 .listOfUlam{
-    color: #B81024;
+    color: #E50914;
     font-family: 'Roboto', sans-serif;
     position: absolute;
     left: 43%;
     bottom: 30px;
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 700;
     letter-spacing: 2px;
     
 }
 .clickTheUlam{
     color: #F5F5F1;
-    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     position: absolute;
-    left: 68%;
-    bottom: 60%;
+    left: 67%;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    bottom: 57%;
     font-size: 20px;
-    font-weight: 900;
-    border-radius: 100px;
-    background-color: #B81024;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: #B20710;
     border: none;
+    box-shadow: 0px 14px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.075em;
 }
 .gulays{
     color: #F5F5F1;
@@ -129,4 +136,11 @@ p{
     background-color: #221F1F;
     border: none;
     letter-spacing: 3px;
+}
+#carouselExampleCaptions{
+    padding-left: 50px;
+    filter: drop-shadow(13px 17px 3px rgba(10, 9, 9, 0.29));
+}
+.carousel-inner{
+    border-radius: 20px;
 }
