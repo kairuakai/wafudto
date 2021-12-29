@@ -15,7 +15,7 @@ body{
     width: 350px;
     height: 300px;
     object-fit: cover;
-    left: 400px;
+    left: 410px;
     bottom: 48px;
     border-radius: 100%;
 }
@@ -24,7 +24,7 @@ body{
     width: 350px;
     height: 300px;
     object-fit: cover;
-    left: 790px;
+    left: 810px;
     bottom: 386px;
     border-radius: 100%;
 }
@@ -33,7 +33,7 @@ body{
     width: 350px;
     height: 300px;
     object-fit: cover;
-    left: 1170px;
+    left: 1210px;
     bottom: 724px;
     border-radius: 100%;
 }
@@ -43,7 +43,7 @@ body{
     letter-spacing: 3px;
     color: white;
     font-size: 40px;
-    font-weight: 700;
+     font-weight: 400;
 
 }
 .ulamSoup{
@@ -51,30 +51,30 @@ body{
     color: white;
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    left: 490px;
+    left: 500px;
     bottom: 65%;
     font-size: 40px;
-    font-weight: 700;
+     font-weight: 400;
 }
 .ulamSauce{
     letter-spacing: 3px;
     color: white;
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    left: 795px;
+    left: 820px;
     bottom: 65%;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 400;
 }
 .ulamFried{
     letter-spacing: 3px;
     color: white;
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    left: 1195px;
+    left: 1220px;
     bottom: 65%;
     font-size: 40px;
-    font-weight: 700;
+     font-weight: 400;
 }
 
 #gulayButton{
@@ -84,16 +84,16 @@ body{
 }
 #soupButton{
     position: relative;
-    left: 500px;
+    left: 525px;
     bottom: -3px;
 }
 #sauceButton{
     position: relative;
-    left: 890px;
+    left: 925px;
     bottom: 337px;
 }
 #friedButton{
     position: relative;
-    left: 1295px;
+    left: 1330px;
     bottom: 675px;
 }

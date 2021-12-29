@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body{
     background-color: #221F1F;
     font-family: 'Poppins', sans-serif;
@@ -16,6 +21,42 @@ body{
     
 
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    position: absolute;
+}
+.nav_links{
+    position: relative;
+    display: flex;
+    left: 550px;
+    top: 25px;
+}
+#homelogo{
+    color: white;
+    font-size: 50px;
+}
+nav{
+   
+    padding: 0px 40px;
+    justify-content: space-between;
+}
+.nav_links li{
+    padding: 0px 30px;
+    list-style: none;
+    font-weight: 400;
+}
+.nav_links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    left: 30px;
+    letter-spacing: 0.075em;
+    
+
+}
 .nav{
     position: absolute;
    
@@ -31,7 +72,10 @@ body{
     color: #E50914;
     letter-spacing: 2px;
     cursor: pointer;
+    font-size: 40px;
     text-decoration: none;
+    padding-left: 50px;
+    font-weight: 700;
 }
 .foodname:hover{
     color: #B81024;
@@ -39,9 +83,10 @@ body{
 
 #logo{
    color: #F5F5F1;
-   position: relative;
-   top: 9px;
-   right: 10px;
+   font-size: 30px;
+    position: relative;
+   bottom: 4px;
+   /* right: 10px; */ 
     
 }
 /* .carousel-item{
@@ -53,6 +98,18 @@ body{
     width:50px;
     height:60px;
   } */
+
+
+/* Carousel */
+#carouselExampleCaptions{
+    position: relative;
+    padding-left: 50px;
+    filter: drop-shadow(13px 17px 3px rgba(10, 9, 9, 0.29));
+    padding-bottom: 10px;
+}
+.carousel-inner{
+    border-radius: 20px;
+}
   .carousel {
     position: relative;
     top: 150px;
@@ -83,7 +140,7 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 
-
+/* List of Ulam */
 .ulamToday{
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -131,16 +188,52 @@ p{
     left: 46%;
     bottom: -1px;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 700;
     border-radius: 100px;
     background-color: #221F1F;
     border: none;
     letter-spacing: 3px;
 }
-#carouselExampleCaptions{
-    padding-left: 50px;
-    filter: drop-shadow(13px 17px 3px rgba(10, 9, 9, 0.29));
+
+
+/* Footer */
+.footer{
+    background-color: #B20710;
+    position: absolute;
+    bottom: -3794px;
+    width: 100%;
+    height: 35%;
+    
 }
-.carousel-inner{
-    border-radius: 20px;
+.footer .footer-about{
+    position: absolute;
+    left: 44%;
+}
+.footer h3{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 50px 30px;
+
+}
+.footer .wafudto p{
+    padding: 90px 30px;
+    text-align: center;
+}
+
+.logo-contact{
+    position: relative;
+    top: -70px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.logo-contact i{
+    padding: 0px 15px;
+    cursor: pointer;
+}
+.cc{
+    position: relative;
+    top: 20px;
+    font-size: 13px;
 }
